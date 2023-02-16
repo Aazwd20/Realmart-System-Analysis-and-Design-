@@ -1,0 +1,6 @@
+img {
+    /* display: grid; */
+    width: 193px;
+    height: 43px;
+    place-items: flex-end;
+  }

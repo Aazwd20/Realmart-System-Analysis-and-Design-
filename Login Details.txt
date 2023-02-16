@@ -1,0 +1,20 @@
+Admin 
+
+mail : admin@admin.com
+pass : password
+
+User
+
+mail : user1@yahoo.com
+pass : 123
+
+
+
+/* bootstrap.min.css | http://localhost//xampp/System%20Analysis%20and%20Desing/realmart%20-%20Copy/bower_components/bootstrap/dist/css/bootstrap.min.css */
+
+img {
+  /* display: grid; */
+  width: 193px;
+  height: 43px;
+  place-items: flex-end;
+}

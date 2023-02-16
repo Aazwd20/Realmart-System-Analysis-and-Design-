@@ -1,0 +1,128 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: none;
+    
+}
+#container
+{
+    height: 56vh;
+    width: 138%;
+    position: relative;
+    display: grid;
+    place-items: flex-end;
+    background: #f6f6f6;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    
+    
+
+
+}
+
+#screen
+{
+    height: 100%;
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+#header
+{
+    height: 22%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #17a3e7;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000000a1;
+}
+
+#messageDisplaySection
+{
+
+    width: 98;
+    padding: 0 0px;
+    max-height: 65%;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    overflow-y: auto;
+}
+.chat
+{
+    min-height: 30px;
+    max-width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.botMessages
+{
+    background: #17a3e7;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000000d4;
+}
+#messagesContainer
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.usersMessages
+{
+    background: #00000010;
+}
+#userInput
+{
+    height: 30px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    bottom: 3%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+#messages
+{
+    height: 30px;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0px 15px;
+    font-size: 17px;
+}
+#send
+{
+    height: 30px;
+    width: 18%;
+    position: absolute;
+    right: 0;
+    border: none;
+    outline: none;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 20px;
+    background: #17a3e7;
+    cursor: pointer;
+    display: none;
+}

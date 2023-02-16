@@ -1,0 +1,35 @@
+.button{
+
+    width: 100px;
+    height: 65px;
+    border-radius: 150px;
+    text-align: center;
+    transition-delay:.5s ;
+    background:url(Chatbot.png);
+    background-size: contain;
+    display: grid;
+    place-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    
+  }
+  .payment-button.button1{
+    padding:1px;
+    margin:1px;
+    width: 100px;
+    height: 30px;
+    border-radius: 150px;
+    position: relative;
+    border: none;
+    background:url(card_img.png);
+    background-position-x: center;
+    background-size: contain;
+  }
+  .button{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1000;
+  
+  }
